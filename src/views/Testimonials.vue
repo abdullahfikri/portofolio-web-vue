@@ -3,14 +3,22 @@ import { ref, computed } from 'vue';
 import TestimonialCard from "@/components/TestimonialCard.vue";
 
 import lutfiImg from '@/assets/testimonials/img/lutfi.jpg'
+import ajiBImg from '@/assets/testimonials/img/aji-b.jpg'
 
 const allTestimonials = ref([
   {
     name: 'Lutfi',
     job: 'Mobile Dev',
     linkedin: 'https://www.linkedin.com/in/lutfi-aldri/',
-    photo: lutfiImg, // Ganti dengan foto asli
+    photo: lutfiImg,
     comment: 'Dia seorang survivor sejati, ikhtiar mencari solusi adalah gambarannya!',
+  },
+  {
+    name: 'Aji Bayu Perrmadi\n',
+    job: 'Developer',
+    linkedin: 'https://www.linkedin.com/in/aji-bayu-permadi-11a5a9214/',
+    photo: ajiBImg,
+    comment: 'Programmer handal, yang sedang mencari jati diri',
   },
   {
     name: 'Sutiyoso',

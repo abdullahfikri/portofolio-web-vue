@@ -5,7 +5,7 @@ import BaseButton from "@/components/BaseButton.vue";
 
 <template>
   <section id="home" class="max-w-[1200px] mx-auto min-h-[60vh] flex flex-col items-center justify-between px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-    <div class="flex flex-col md:flex-row items-center gap-12">
+    <div class="flex flex-col md:flex-row items-center gap-8">
       <div class="flex-1 text-left">
         <p class="text-xl">Hello, I am</p>
         <h1 class="text-4xl md:text-5xl font-bold text-black leading-tight">Muhammad
@@ -24,11 +24,11 @@ import BaseButton from "@/components/BaseButton.vue";
       </div>
 
       <div class="flex-1 mt-10 md:mt-0 flex justify-end">
-        <div class="w-72 h-72 md:w-96 md:h-96">
+        <div class="w-72 h-72 md:w-[30rem] md:h-[30rem]">
           <img
-              src="@/assets/image-placeholder.png"
+              src="@/assets/photo.png"
               alt="Photo Muhammad Fikri"
-              class="w-full h-full  object-cover shadow-xl"
+              class="w-full h-full  object-contain"
           >
         </div>
       </div>
