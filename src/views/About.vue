@@ -30,7 +30,9 @@ import BaseButton from "@/components/BaseButton.vue";
       </div>
     </div>
     <div class="mt-8">
-      <BaseButton>Download CV</BaseButton>
+      <a href="/Muhammad-Fikri-CV-Backend-Engineering.pdf" target="_blank" ref="noopener noreferrer">
+        <BaseButton variant="primary">View CV in New Tab</BaseButton>
+      </a>
     </div>
   </section>
 </template>

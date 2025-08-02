@@ -19,7 +19,9 @@ import BaseButton from "@/components/BaseButton.vue";
             <BaseButton><a href="#project">Look At My Project</a></BaseButton>
             <BaseButton><a href="#contact">My Contact</a></BaseButton>
           </div>
-          <BaseButton variant="secondary">Download CV</BaseButton>
+          <a href="/Muhammad-Fikri-CV-Backend-Engineering.pdf" target="_blank" ref="noopener noreferrer">
+            <BaseButton variant="secondary">View CV in New Tab</BaseButton>
+          </a>
         </div>
       </div>
 
